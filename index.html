@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      body {
+        background-color: #faf5f5;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      header {
+        height: 60px;
+        background-color: white;
+        text-align: center;
+      }
+
+      #Nav1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+      }
+
+      a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        transition: color 0.3s ease-in-out;
+      }
+
+      .main-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 20px;
+        flex: 1;
+      }
+
+      .content-left {
+        width: calc(50% - 20px);
+        margin-right: 20px;
+      }
+
+      .content-right {
+        width: calc(50% - 20px);
+      }
+
+      .profile-image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%;
+        margin: 20px auto;
+        display: block;
+      }
+
+      h1 {
+        display: block;
+        text-align: center;
+      }
+      h4 {
+        margin-bottom: 10px;
+        color: black;
+        text-align: center;
+      }
+
+      footer {
+        background-color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav id="Nav1">
+        <a href="#" target="_blank">Home</a>
+        <a href="about.html" target="_blank">About</a>
+        <a href="portfolio.html" target="_blank">Portfolio</a>
+        <a href="contact.html" target="_blank">Contact</a>
+        <a
+          href="https://www.linkedin.com/in/prathmesh-chourasiya-48503125b/"
+          target="_blank"
+          >Linkedin</a
+        >
+        <a href="https://github.com/Prathme07" target="_blank">Git</a>
+      </nav>
+    </header>
+    <img
+      src="Prathmesh_Chourasiya_.png"
+      alt="Prathmesh Chourasiya"
+      class="profile-image"
+    />
+
+    <h1>I'm Prathmesh Chourasiya</h1>
+    <h4>
+      Passionate engineer turning ideas into innovation with precision and
+      creativity. Explore my portfolio for a glimpse into my world of relentless
+      curiosity and commitment to excellence.
+    </h4>
+
+    <footer><a href="#">&copy;2023|Prathmesh</a></footer>
+  </body>
+</html>
